@@ -1,7 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-}) 
+})
+
+// This configuration sets up a Vite project with React support and specifies the base path for the application.
+// The `base: './'` line ensures that the application can be served correctly from a subdirectory or when deployed to a static file server.
+// The `react` plugin is used to enable React features in the Vite build process.
